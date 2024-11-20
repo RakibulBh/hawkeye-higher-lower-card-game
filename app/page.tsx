@@ -28,6 +28,7 @@ export default function MainContent() {
         </Button>
       </div>
       <div className="absolute bg-gradient-to-b from-[#272537] to-black bg-red-200 -z-20 w-[100rem] h-[100rem] rounded-full top-56 border-[1rem] border-black" />
+      <div className="bg-[#5B3BAC] w-[70rem] h-[70rem] rounded-full -z-30 absolute blur-3xl top-48" />
     </main>
   );
 }

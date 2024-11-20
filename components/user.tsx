@@ -1,4 +1,5 @@
 import React from "react";
+import Points from "./points";
 
 const User = () => {
   return (
@@ -7,6 +8,7 @@ const User = () => {
         Player 1
       </p>
       <div className="w-32 h-32 rounded-full bg-orange-300"></div>
+      <Points points={3} />
     </div>
   );
 };
