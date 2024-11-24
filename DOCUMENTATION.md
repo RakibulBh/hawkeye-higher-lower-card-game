@@ -1,4 +1,4 @@
-# Lilly Technical Challenge Documentation Template
+# Hawk-Eye Innovations Software Engineering Challenge Documentation
 
 ## Approach
 
