@@ -1,3 +1,4 @@
+import { CardValue } from "@/types";
 import { ArrowBigDownDash, ArrowBigUpDash, Minus } from "lucide-react";
 
 export const Buttons = [
@@ -35,3 +36,19 @@ export const values = [
   "King",
   "Ace",
 ];
+
+export const cardRanks: Record<CardValue, number> = {
+  Ace: 14,
+  King: 13,
+  Queen: 12,
+  Jack: 11,
+  "10": 10,
+  "9": 9,
+  "8": 8,
+  "7": 7,
+  "6": 6,
+  "5": 5,
+  "4": 4,
+  "3": 3,
+  "2": 2,
+};
